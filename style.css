@@ -1,0 +1,44 @@
+* {
+    box-sizing: border-box;
+  }
+   
+  html,
+  body {
+    width: 100%;
+    min-height: 100%;
+    margin: 50px auto;
+    background:
+        linear-gradient(rgb(219, 145, 145), transparent),
+        linear-gradient(to top left, rgb(181, 227, 181), transparent),
+        linear-gradient(to top right, rgb(185, 185, 230), transparent);
+    background-blend-mode: screen;
+    background-attachment: fixed;
+    font-family: 'Roboto', sans-serif;
+  }
+  .container {
+    top: 180px;
+    bottom: 180px;
+    width: 80%;
+    margin:0 10%;
+    min-height: 100%;
+    background: #FFFFFF;
+    box-shadow: 1px 2px 3px 0px rgba(13, 62, 97, 0.945);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    font-size: 24px;
+    color: rgb(15, 85, 85);
+  }
+  img{
+    width: 200px;
+    height: 200px;
+  }
+  table{
+    width: 90%;
+    text-align: center;
+    justify-content: space-around;
+    align-items: center;
+  }
+  .head, .foot{
+   height: 250px; 
+  }
